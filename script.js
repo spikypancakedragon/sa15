@@ -14,7 +14,7 @@ button.addEventListener("click", function(event) {
         }
     }
 
-    scoreDiv.style.display = "block";
-    scorep.textContent = `${numRight}/5 correct`
+    const numQs = document.getElementsByTagName("section").length
+    scorep.textContent = `${numRight}/${numQs} correct`
     
 });

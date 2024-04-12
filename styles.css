@@ -1,7 +1,23 @@
 body{
-    background-color: lightskyblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:darkslateblue;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#hidden {
-    display: none;
+h1 {
+    background-image: url("stardew_mountains_bg.jpg");
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+    padding: 3%;
+}
+
+section {
+    background-image: url("stardew_stars_bg.jpg");
+    border-radius: 8px;
+    padding: 2%;
+    margin-top: 5%;
+
 }
